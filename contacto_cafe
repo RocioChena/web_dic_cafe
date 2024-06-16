@@ -1,58 +1,71 @@
 <!DOCTYPE html>
-<html lang="ja">
-
-<head>
+<html>
+  <head>
     <meta charset="utf-8">
-    <title>DIC Café</title>
-</head>
-
-<body>
-    <header id="#top">
-        <nav>
-            <a href="file://wsl.localhost/Ubuntu/root/DIC_Cafe/dic_cafe/index.html#">
-                <img src="C:\Users\Joven Adelante\Pictures\sample_logo_k.png" width="150px" height="150px"></a>
-            <ul>
-                <a href="file://wsl.localhost/Ubuntu/root/DIC_Cafe/dic_cafe/index.html#">
-                    <li>Inicio</li>
-                </a>
-                <a href="#">
-                    <li>Menú</li>
-                </a>
-                <a href="file://wsl.localhost/Ubuntu/root/DIC_Cafe/dic_cafe/contact.html">
-                    <li>Contacto</li>
-                </a>
-                <h1>CONTACTO</h1>
-                <H3>Consulta</H3>
-            </ul>
-        </nav>
-        <table border=1>
-            <tbody>
-                <tr>
-                    <td>Nombre</td>
-                    <td>En blanco</td>
-                </tr>
-                <tr>
-                    <td>Información de contacto</td>
-                    <td>En blanco</td>
-                </tr>
-                <td>Área de residencia</td>
-                <td>En blanco</td>
-                <tr>
-                    <td>Contenido</td>
-                    <td>En blanco</td>
-                </tr>
-            </tbody>
-        </table><br>
-        <footer>
-            <nav>
-                <a href="file://wsl.localhost/Ubuntu/root/DIC_Cafe/dic_cafe/index.html#">Inicio</a>
-                <a rhref="#">Menú</a>
-                <a href="file://wsl.localhost/Ubuntu/root/DIC_Cafe/dic_cafe/contact.html">Contacto</a><br>
-                <a href="#"><img src="C:\Users\Joven Adelante\Pictures\sample_logo_w.png" width="70px"
-                        height="100px"></a>
-                <span>© DIVIC Corp. Todos los DERECHOS RESERVADOS</span>
-            </nav>
-        </footer>
-</body>
-
+    <title>DIC cafe</title>
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <nav class="header_nav">
+        <a href="index.html" class="logo"><img src="images/sample_logo_k.png"></a>
+        <ul class="global_nav">
+          <a href="index.html" class="global_nav_item"><li>Home</li></a>
+          <a href="#" class="global_nav_item"><li>Menu</li></a>
+          <a href="contact.html" class="global_nav_item"><li>Contact</li></a>
+        </ul>
+      </nav>
+    </header>
+    <section class="section_inner">
+        <div class="section_title">
+          <h1>CONTACT</h1>
+          <p>Contáctanos</p>
+        </div>
+        <form action="#" method="POST">
+            <table border=1>
+            <tr>
+              <td>su nombre</td>
+              <td>espacio en blanco</td>
+            </tr>
+            <tr>
+              <td>Datos de contacto</td>
+              <td>espacio en blanco</td>
+            </tr>
+            <tr>
+              <td>Región de residencia</td>
+              <td>espacio en blanco</td>
+            </tr>
+            <tr>
+              <td>Contenido</td>
+              <td>espacio en blanco</td>
+            </tr>
+          </table>
+          <button type="reset">reiniciar</button>
+          <button type="submit">Transmite.</button>
+        </form>
+      </section>
+    <footer class="footer">
+      <nav>
+        <ul class="footer_nav">
+          <a href="index.html" class="footer_nav_item">
+            <li>Home</li>
+          </a>
+          <a href="blueberry_pancakes.html" class="footer_nav_item">
+            <li>Menu</li>
+          </a>
+          <a href="contact.html" class="footer_nav_item">
+            <li>Contact</li>
+          </a>
+          <a href="index.html" class="footer_nav_item">
+            <li>
+              <img src="images/sample_logo_w.png" class="footer_logo">
+            </li>
+          </a>
+        </ul>
+      </nav>
+      <p class="footer_right">© DIVIC Corp. All RIGHTS RESERVED.</p>
+    </footer>
+  </body>
 </html>
