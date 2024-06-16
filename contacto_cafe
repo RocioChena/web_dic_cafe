@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <title>DIC Café</title>
+</head>
+
+<body>
+    <header id="#top">
+        <nav>
+            <a href="file://wsl.localhost/Ubuntu/root/DIC_Cafe/dic_cafe/index.html#">
+                <img src="C:\Users\Joven Adelante\Pictures\sample_logo_k.png" width="150px" height="150px"></a>
+            <ul>
+                <a href="file://wsl.localhost/Ubuntu/root/DIC_Cafe/dic_cafe/index.html#">
+                    <li>Inicio</li>
+                </a>
+                <a href="#">
+                    <li>Menú</li>
+                </a>
+                <a href="file://wsl.localhost/Ubuntu/root/DIC_Cafe/dic_cafe/contact.html">
+                    <li>Contacto</li>
+                </a>
+                <h1>CONTACTO</h1>
+                <H3>Consulta</H3>
+            </ul>
+        </nav>
+        <table border=1>
+            <tbody>
+                <tr>
+                    <td>Nombre</td>
+                    <td>En blanco</td>
+                </tr>
+                <tr>
+                    <td>Información de contacto</td>
+                    <td>En blanco</td>
+                </tr>
+                <td>Área de residencia</td>
+                <td>En blanco</td>
+                <tr>
+                    <td>Contenido</td>
+                    <td>En blanco</td>
+                </tr>
+            </tbody>
+        </table><br>
+        <footer>
+            <nav>
+                <a href="file://wsl.localhost/Ubuntu/root/DIC_Cafe/dic_cafe/index.html#">Inicio</a>
+                <a rhref="#">Menú</a>
+                <a href="file://wsl.localhost/Ubuntu/root/DIC_Cafe/dic_cafe/contact.html">Contacto</a><br>
+                <a href="#"><img src="C:\Users\Joven Adelante\Pictures\sample_logo_w.png" width="70px"
+                        height="100px"></a>
+                <span>© DIVIC Corp. Todos los DERECHOS RESERVADOS</span>
+            </nav>
+        </footer>
+</body>
+
+</html>
