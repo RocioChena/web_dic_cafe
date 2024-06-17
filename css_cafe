@@ -85,4 +85,24 @@ div,li {
 .caffee_menu_image {
   width: 20%;
   border-radius: 50%;
+
+}
+.cont {
+  padding: 190px 0% 3px;
+}
+.contenedor{
+  display: flex;
+  justify-content: center;
+  
+}
+.txt {
+  width: 60%;
+  padding-right: 20px; 
+  margin-left:10px;
+}
+.imagen img{
+  justify-content: left;
+  margin-right: 100px;
+  width: 100%;
+  height: auto;
 }
