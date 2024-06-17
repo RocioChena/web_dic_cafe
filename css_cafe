@@ -1,11 +1,14 @@
 @charset "utf-8";
 html {
   height: 100%;
+
 }
 body {
-  position: relative;
+  position:relative;
   padding-bottom: 75px;
   min-height: 100%;
+  margin: 0;
+  padding:0px;
 }
 li {
   list-style: none;
@@ -51,8 +54,7 @@ div,li {
   width: 100%;
 }
 .section_inner {
-  padding: 198px 10% 70px;
-  
+  padding: 50px 5% 40px;
 }
 .key {
   height: 500px;
@@ -64,12 +66,10 @@ div,li {
   font-size: 2.5rem;
 }
 .section_title {
-    text-align: left; 
   font-family: 'Noto Serif JP', serif;
   font-weight: bold;
   text-align: center;
-  margin-bottom: 50px;
-  
+  margin-bottom: 60px;
 }
 .menu_title {
   display: inline-block;
@@ -81,28 +81,107 @@ div,li {
 }
 .center {
   text-align: center;
+  padding: 0px;
 }
 .caffee_menu_image {
   width: 20%;
   border-radius: 50%;
-
 }
 .cont {
-  padding: 190px 0% 3px;
+  padding: 180px 0% 3px;
 }
 .contenedor{
   display: flex;
-  justify-content: center;
-  
+  justify-content:space-between;
+  padding: 25px;
 }
 .txt {
   width: 60%;
-  padding-right: 20px; 
-  margin-left:10px;
+  padding-right: 30px; 
+  margin-left:100px;
 }
 .imagen img{
   justify-content: left;
-  margin-right: 100px;
+  margin-right: 300px;
+  width: 35%;
+  height:100%;
+  object-fit: cover;
+}
+.hr {
+  margin: 20px 10%;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.horario {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-right: 10px; 
+  width: 80px;
+}
+
+.hr {
+  font-size: 1rem;
+  flex: 1;
+}
+.footer {
+  background-color: #251e19;
+  color: #fff; 
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+  padding: 10px 0;
+}
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  padding: 10px 0;
+}
+
+.footer-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer-menu li {
+  margin: 0 10px;
+}
+
+.footer-menu a {
+  text-decoration: none;
+  color: #fff; 
+}
+
+.footer-logo img {
+  width: 80px;
+  height:auto;
+
+}
+
+.footer-logo {
+  margin-top: -10px;
+  display: flex;
+  align-items: center;
+}
+.footer-copyright {
+  bottom: 5px;
   width: 100%;
-  height: auto;
+  text-align: center;
+  font-size: 0.7rem;
+  padding: 10px;
+  background-color: #251e19;
+  margin-top: -40px;
 }
