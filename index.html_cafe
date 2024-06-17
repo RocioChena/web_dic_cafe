@@ -36,17 +36,19 @@
                 <h1>CONCEPTO</h1>
                 <p>El compromiso de DIC Café</p>
             </div>
-            <div>
+           <div class="contenedor">
+                <div class="txt">
                 <p>
                     DIC Coffee utiliza granos de café de Ruanda llamados<strong>「DIC Beans」</strong><br>
                     . Compramos directamente a los productores de café con los que tenemos contrato.<br>
-                    Esta taza tiene una acidez y riqueza bien equilibradas, con un dulzor afrutado. Por favor disfruta
-                    de tu taza favorita.<br>
+                    Esta taza tiene una acidez y riqueza bien equilibradas, con un dulzor afrutado.<br>
+                     Por favor disfruta de tu taza favorita.<br>
                     <small>*DIC Coffee es operado por DIVE INTO CODE Co., Ltd. bajo contrato con la finca.</small>
                 </p>
-            </div>
-            <div>
-                <img src="images/sample_concept.jpg">
+              </div>
+              <div class="imagen">
+                <img src="images/sample_concept.jpg" ;>
+                </div>
             </div>
         </article>
         <article class="section_inner">
