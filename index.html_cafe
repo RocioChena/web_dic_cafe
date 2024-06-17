@@ -20,14 +20,15 @@
                 <a href="#menu" class="global_nav_item">
                     <li>Menu</li>
                 </a>
-                <a href="file://wsl.localhost/Ubuntu/root/DIC_Cafe/dic_cafe/contact.html" class="global_nav_item">
+                <a href="contact.html" class="global_nav_item">
                     <li>Contact</li>
                 </a>
             </ul>
         </nav>
         <div class="key section_inner">
-            <h1>Café DIC</h1>
+            <h1 class="cont">DIC Coffe</h1>
             <p>cafe organico natural</p>
+
         </div>
     </header>
     <section>
@@ -36,18 +37,18 @@
                 <h1>CONCEPTO</h1>
                 <p>El compromiso de DIC Café</p>
             </div>
-           <div class="contenedor">
+            <div class="contenedor">
                 <div class="txt">
-                <p>
-                    DIC Coffee utiliza granos de café de Ruanda llamados<strong>「DIC Beans」</strong><br>
-                    . Compramos directamente a los productores de café con los que tenemos contrato.<br>
-                    Esta taza tiene una acidez y riqueza bien equilibradas, con un dulzor afrutado.<br>
-                     Por favor disfruta de tu taza favorita.<br>
-                    <small>*DIC Coffee es operado por DIVE INTO CODE Co., Ltd. bajo contrato con la finca.</small>
-                </p>
-              </div>
-              <div class="imagen">
-                <img src="images/sample_concept.jpg" ;>
+                    <p>
+                        DIC Coffee utiliza granos de café de Ruanda llamados<strong>「DIC Beans」</strong><br>
+                        . Compramos directamente a los productores de café con los que tenemos contrato.<br>
+                        Esta taza tiene una acidez y riqueza bien equilibradas, con un dulzor afrutado.<br>
+                        Por favor disfruta de tu taza favorita.<br>
+                        <small>*DIC Coffee es operado por DIVE INTO CODE Co., Ltd. bajo contrato con la finca.</small>
+                    </p>
+                </div>
+                <div class="imagen">
+                    <img src="images/sample_concept.jpg" ;>
                 </div>
             </div>
         </article>
@@ -59,7 +60,7 @@
                 </div>
                 <ul>
                     <li>
-                        <h2>panqueques de arándano</h2>
+                        <h2>panqueques de arándanos</h2>
                         <p>Panqueques cubiertos con arándanos frescos</p>
                         <p>¥1,200</p>
                         <img src="images/sample_pancake1.jpg">
@@ -99,49 +100,57 @@
                     </li>
                 </ul>
             </section>
-        </article>
-        <article class="section_inner">
+            <article class="section_inner">
+            </article>
             <div class="section_title">
                 <h1>ACCESO</h1>
                 <p>almacenar información</p>
             </div>
-            <dl>
-                <dt>Horas de trabajo</dt>
-                <dd>10:00 - 19:00<br>Cerrado los jueves</dd>
-            </dl>
-            <dl>
-                <dt>DIRECCIÓN</dt>
-                <dd>
-                    28-4 Maruyama-cho, Shibuya-ku, Tokio 150-0044 Edificio Oba Edificio A <br>
-                    TEL:03-5459-1808
-                </dd>
-            </dl>
+            <div class="hr">
+                <dl class="info-item">
+                    <dt class="horario">Horas de trabajo</dt>
+                    <dd class="hr">10:00 - 19:00<br>Cerrado los jueves</dd>
+                </dl>
+                <dl class="info-item">
+                    <dt class="horario">Dirección</dt>
+                    <dd class="hr">
+                        28-4 Maruyama-cho, Shibuya-ku, Tokio 150-0044 Edificio Oba Edificio A <br>
+                        TEL: 03-5459-1808
+                    </dd>
+                </dl>
+            </div>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.8625569899887!2d139.6922821152582!3d35.65575778020021!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188b55bb707eff%3A0x5f04575eb7aca63e!2z44CSMTUwLTAwNDQg5p2x5Lqs6YO95riL6LC35Yy65YaG5bGx55S677yS77yY4oiS77yUIE9iYSBCbGQuIEHppKg!5e0!3m2!1sja!2sjp!4v1589613763992!5m2!1sja!2sjp"
-                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
-                tabindex="0"></iframe>
+                width="100%" height="600" frameborder="0" style="border:100;" allowfullscreen="" aria-hidden="false"
+                tabindex="0" padding bottom="75px" position="relative" object-fit="cover"></iframe>
         </article>
     </section>
     <footer>
-        <nav>
-            <ul>
-                <a href="index.html">
-                    <li>Hogar</li>
-                </a>
-                <a href="#menu">
-                    <li>Menú</li>
-                </a>
-                <a href="contact.html">
-                    <li>Contacto</li>
-                </a>
-                <a href="index.html">
-                    <li>
-                        <img src="images/sample_logo_w.png">
-                    </li>
-                </a>
+        <nav class="footer">
+            <div class="footer-content">
+                <ul class="footer-menu">
+                    <a href="index.html">
+                        <li>Hogar</li>
+                    </a>
+                    <a href="#menu">
+                        <li>Menú</li>
+                    </a>
+                    <a href="contact.html">
+                        <li>Contacto</li>
+                    </a>
+                    <div class="footer-logo">
+                        <a href="index.html">
+                            <li>
+                                <img src="images/sample_logo_w.png">
+                            </li><br>
+                        </a>
+                    </div>
+            </div>
             </ul>
+            <div class="footer-copyright">
+                <p>© DIVIC Corp. All RIGHTS RESERVED.</p>
+            </div>
         </nav>
-        <p>© DIVIC Corp. All RIGHTS RESERVED.</p>
     </footer>
 </body>
 
