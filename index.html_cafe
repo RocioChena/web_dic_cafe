@@ -58,46 +58,63 @@
                 <div class="center">
                     <h1 class="menu_title">Menú Recomendado</h1>
                 </div>
-                <ul>
-                    <li>
-                        <h2>panqueques de arándanos</h2>
-                        <p>Panqueques cubiertos con arándanos frescos</p>
-                        <p>¥1,200</p>
+                <ul class="edition">
+                    <div class="top">
                         <img src="images/sample_pancake1.jpg">
-                    </li>
-                    <li>
-                        <h2>panqueques de fresa</h2>
-                        <p>Disfruta de la colaboración de fresas y miel.</p>
-                        <p>¥1,300</p>
+                        <li class="colum">
+                            <h2 class="titulo">panqueques de arándanos</h2>
+                            <p class="comentario">Panqueques cubiertos con arándanos frescos</p>
+                            <p class="precio">¥1,200</p>
+                        </li>
+                    </div>
+                    <div class="top">
                         <img src="images/sample_pancake2.jpg">
-                    </li>
+                        <li class="colum">
+                            <h2 class="titulo">panqueques de fresa</h2>
+                            <p class="comentario">Disfruta de la colaboración de fresas y miel.</p>
+                            <p class="precio">¥1,300</p>
+                        </li>
+                    </div>
                 </ul>
             </section>
-            <section>
+            <section><br><br>
                 <div class="center">
                     <h1 class="menu_title">Menú de café</h1>
                 </div>
                 <ul>
-                    <li>
-                        <h2>café mezclado</h2>
-                        <p>¥400</p>
-                        <img src="images/sample_cafe1.jpg" class="caffee_menu_image">
-                    </li>
-                    <li>
-                        <h2>café con leche de arte</h2>
-                        <p>¥500</p>
+                    <div class="column-group">
+                        <li class="menu-item">
+                            <img src="images/sample_cafe1.jpg" class="caffee_menu_image">
+                            <div class="menu-item-text">
+                                <h2>café mezclado</h2>
+                                <p>¥400</p>
+                            </div>
+                        </li>
+                        <li class="menu-item">
+                            <img src="images/sample_cafe3.jpg" class="caffee_menu_image">
+                        <div class="menu-item-text">
+                            <h2>café latte</h2>
+                            <p>¥450</p>
+                            </div>
+                        </li>
+                    </div>
+                    <div class="column-group">
+                    <li class="menu-item">
                         <img src="images/sample_cafe2.jpg" class="caffee_menu_image">
+                            <div class="menu-item-text">
+                                <h2>café con leche de arte</h2>
+                                <p>¥500</p>
+                        </div>
                     </li>
-                    <li>
-                        <h2>café latte</h2>
-                        <p>¥450</p>
-                        <img src="images/sample_cafe3.jpg" class="caffee_menu_image">
-                    </li>
-                    <li>
-                        <h2>café helado</h2>
-                        <p>¥350</p>
+
+                    <li class="menu-item">
                         <img src="images/sample_cafe4.jpg" class="caffee_menu_image">
+                        <div class="menu-item-text">
+                            <h2>café helado</h2>
+                            <p>¥350</p>
+                        </div>
                     </li>
+                    </div>
                 </ul>
             </section>
             <article class="section_inner">
